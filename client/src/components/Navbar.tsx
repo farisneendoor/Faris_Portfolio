@@ -38,11 +38,7 @@ export default function Navbar({ activeSection }: NavbarProps) {
     >
       <div className="container max-w-7xl">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <button
-            onClick={() => scrollTo("hero")}
-            className="flex items-center gap-2"
-          >
+          
             {/* Logo */}
 <button
   onClick={() => scrollTo("hero")}
