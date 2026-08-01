@@ -43,11 +43,15 @@ export default function Navbar({ activeSection }: NavbarProps) {
             onClick={() => scrollTo("hero")}
             className="flex items-center gap-2"
           >
-            <img
-              src="/manus-storage/logo-modern_e8d1b5d6.png"
-              alt="Logo"
-              className="w-8 h-8"
-            />
+            {/* Logo */}
+<button
+  onClick={() => scrollTo("hero")}
+  className="flex items-center gap-2"
+>
+  <span className="font-display font-bold text-lg text-[#e4e4e7] tracking-tight">
+    faris<span className="text-[#5eead4]">.</span>
+  </span>
+</button>
             <span className="font-display font-bold text-lg text-[#e4e4e7] tracking-tight">
               faris<span className="text-[#5eead4]">.</span>
             </span>
