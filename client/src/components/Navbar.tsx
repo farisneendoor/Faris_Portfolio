@@ -45,7 +45,7 @@ export default function Navbar({ activeSection }: NavbarProps) {
   className="flex items-center gap-3"
 >
   <img
-    src="/logo.png"
+    src="/logo.webp"
     alt="Logo"
     className="w-8 h-8 object-contain"
   />
