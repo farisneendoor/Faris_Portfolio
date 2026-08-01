@@ -52,7 +52,7 @@ export default function Hero() {
             }`}
             style={{ transitionDelay: "400ms" }}
           >
-            <span className="gradient-text">Muhammed Faris N A</span>
+            <span className="gradient-text">Muhammed Faris </span>
           </h1>
 
           {/* Subtitle */}
