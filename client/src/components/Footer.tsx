@@ -8,15 +8,10 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img
-                src="/manus-storage/logo-modern_e8d1b5d6.png"
-                alt="Logo"
-                className="w-6 h-6"
-              />
-              <span className="font-display font-bold text-lg text-[#e4e4e7]">
-                faris<span className="text-[#5eead4]">.</span>
-              </span>
-            </div>
+  <span className="font-display font-bold text-lg text-[#e4e4e7]">
+    faris<span className="text-[#5eead4]">.</span>
+  </span>
+</div>
             <p className="text-sm text-[#a1a1aa] leading-relaxed">
               Junior DevOps Engineer building reliable, scalable cloud infrastructure. Passionate about automation and Infrastructure as Code.
             </p>
